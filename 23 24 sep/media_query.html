@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+        .A, .B, .C, .D{  padding: 5px;
+            height: 350px;
+            float: left;
+            width: 25%;
+            background-color: rgb(72, 173, 140);
+            border-style: solid;
+            border-width: 2px;
+            border-color: black;
+           }
+           @media screen and (min-width:1500px){
+            body{ background-color: rgb(81, 97, 81);}
+            .A,.B,.C,.D{ width: 25%;}
+            
+           }
+           @media screen and (max-width:900px){
+            body{ background-color: rgb(140, 209, 140);}
+            .A,.B,.C,.D{ width: 50%;}
+            
+           }
+           @media screen and (max-width:700px){
+            body{ background-color: forestgreen;}
+            .A,.B,.C,.D{ width: 100%;}
+            
+           }
+           h1{font-size: medium; text-align: center; }
+           p{text-align: justify;}
+    </style>
+</head>
+
+<body>
+    <div class="A">
+        <h1>
+            Spatial Modeling and Prediction of Urban Air Pollution Using Geostatistical and Machine Learning Approaches
+        </h1>
+        <br>
+        <p>Background: Rapid urbanization in developing countries has led to increased air pollution, but traditional monitoring stations are sparse.
+
+Objectives: To integrate spatial statistics (kriging, IDW) with machine learning (random forest, XGBoost) for accurate prediction of air pollutants in urban areas.
+
+Novelty: Combines geostatistical interpolation with ML to improve prediction accuracy.
+
+Methods: Collect secondary data on PM2.5, NO2, SO2; apply spatial autocorrelation tests, kriging, and machine learning; validate using RMSE and MAE.</p>
+    </div>
+    <div class="B">
+        <h1>Workplace Harassment and Its Psychological Consequences: A Multilevel Statistical Analysis Details</h1>
+        <br>
+        <p>Background: Workplace harassment is linked to stress, anxiety, and depressive symptoms, but studies often ignore hierarchical structures (employees within organizations).
+
+Objectives: To investigate how workplace harassment influences depressive symptoms while accounting for individual and organizational-level factors.
+
+Novelty: Applies multilevel modeling to separate personal vs organizational impact.
+
+Methods: Survey data collection, factor analysis for harassment indicators, Mann-Whitney U tests for group comparisons, multilevel logistic regression for depressive outcomes.</p>
+    </div>
+    <div class="C"> 
+        <h1>Assessing and Forecasting Water Quality Dynamics in Punjab: A Comparative Analysis of Lockdown and Post-Lockdown Periods</h1>
+        <br>
+        <p>Background: COVID-19 lockdowns reduced industrial and transport activities, offering a natural experiment for environmental recovery.
+
+Objectives: To compare pre-lockdown, lockdown, and post-lockdown water quality indicators across Punjab.
+
+Novelty: First comparative study in Pakistan focusing on lockdown as an intervention in water quality improvement.
+
+Methods: Collect water quality data (pH, TDS, WQI, heavy metals); descriptive analysis (mean, SD), Pearson correlation, factor analysis, multiple linear regression; spatial mapping using GIS.</p>
+    </div>
+    <div class="D">
+        <h1>
+            Statistical Modeling of Ratio-Type Estimators Using Auxiliary Information in Survey Sampling
+        </h1>
+        <br>
+        <p>Background: Ratio estimators are widely used in survey sampling for improved precision, but their bias and efficiency need deeper exploration when auxiliary variables involve variance.
+
+Objectives: To develop new ratio-type estimators using sample variance of auxiliary variables and derive their distributional properties.
+
+Novelty: Theoretical contribution in sampling theory with potential applications in socio-economic surveys.
+
+Methods: Use Taylor expansion for bias/variance derivation, derive MSE, compare efficiency with existing estimators, perform simulation studies in R.</p>
+    </div>
+</body>
+
+</html>

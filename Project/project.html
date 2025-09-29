@@ -1,0 +1,936 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            padding: 0px;
+            margin: 0px;
+            box-sizing: border-box;
+        }
+
+        .header {
+            text-align: center;
+            background-color: rgb(0, 166, 199);
+            width: 100%;
+            height: 40px;
+
+        }
+
+        .section0 {
+            padding-top: 5px;
+            float: left;
+            width: 36%;
+            background-color: rgb(8, 151, 227);
+            height: 40px;
+        }
+
+        .section00 {
+            padding-top: 5px;
+            float: left;
+            width: 33%;
+            background-color: rgb(8, 151, 227);
+            height: 40px;
+        }
+
+        .section000 {
+            padding-top: 5px;
+            float: left;
+            width: 31%;
+            background-color: rgb(8, 151, 227);
+            height: 40px;
+        }
+
+        .header2 {
+            position: sticky;
+            top: 0x;
+            background-color: rgb(150, 65, 65);
+            width: 100%;
+            height: 60px;
+
+        }
+
+
+        .section00000 {
+
+            top: 0px;
+            float: left;
+            width: 45%;
+            background-color: rgb(249, 251, 252);
+            height: 60px;
+        }
+
+        .section0000 {
+
+            top: 0px;
+            float: left;
+            width: 55%;
+            background-color: rgb(249, 251, 252);
+            height: 60px;
+        }
+
+        .section0000 a {
+            padding: 5px;
+            margin: 20px;
+            color: rgb(14, 1, 1);
+            text-decoration: none;
+            display: inline-block;
+        }
+
+        .main {
+            background-repeat: no-repeat;
+            width: 100%;
+            height: 700px;
+            background-image: url('../22 sep/edited pic0.png');
+            background-size: 100% 700px;
+            background-color: aqua;
+            /* position: relative; */
+        }
+
+        /* .read-more-btn {
+            
+            bottom: 80px;
+            left: 45%;
+            background-color: rgba(159, 55, 10, 0.998);
+            color: #f6f3f3;
+            padding: 12px 24px;
+            text-decoration: none;
+            font-size: 18px;
+            border-radius: 30px;
+            position: absolute; 
+        }   */
+
+        .sectionn {
+            width: 100%;
+            /* height: 10px; */
+            background-color: rgb(146, 46, 46);
+
+        }
+
+        .aside {
+            background-color: rgb(62, 135, 187);
+            width: 25%;
+            float: left;
+            height: 300px;
+        }
+
+        .aside h2 {
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+
+        .aside p {
+            line-height: 2;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+
+        .article {
+            width: 100px;
+            height: 100px;
+            background-color: rgb(254, 253, 254);
+            border-radius: 100px;
+            margin-right: auto;
+            margin-left: auto;
+            margin-top: -40px;
+
+        }
+
+        .article img {
+            padding: 20px;
+        }
+
+
+        /* .item1 {
+            width: 24.5%;
+            float: left;
+            padding-left: 5px;
+            text-align: center;
+        } */
+
+        .section1 {
+            margin: 0%;
+            float: left;
+            width: 25%;
+            background-color: rgb(59, 182, 235);
+            height: 200px;
+        }
+
+        .section2 {
+            float: left;
+            width: 25%;
+            background-color: rgb(46, 193, 46);
+            height: 200px;
+        }
+
+        .section3 {
+            float: left;
+            width: 25%;
+            background-color: rgb(68, 0, 128);
+            height: 200px;
+        }
+
+        .section4 {
+            float: left;
+            width: 25%;
+            background-color: rgb(207, 22, 22);
+            height: 200px;
+        }
+
+        .header4 {
+            background-color: rgb(0, 166, 199);
+            width: 100%;
+            height: 148.5vh;
+        }
+
+        .section6 {
+            float: left;
+            width: 40%;
+            background-color: rgb(118, 105, 105);
+            height: 115vh;
+        }
+
+        .section6 h3 {
+            padding-left: 10px;
+            padding-top: 15px;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            color: rgb(22, 22, 22);
+            line-height: 1.5;
+        }
+
+        .section6 p {
+            padding-top: 15px;
+            padding-left: 10px;
+            font-size: 2ch;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            color: rgb(145, 132, 132);
+            line-height: 2;
+        }
+
+
+        .section5 {
+            float: left;
+            width: 60%;
+            background-color: rgb(248, 246, 246);
+            height: 74.25vh;
+        }
+
+        .section5 img {
+            width: 40px;
+            height: 40px;
+            padding-inline-start: 2px;
+        }
+
+
+        .section5 h3 {
+            padding-left: 10px;
+            padding-top: 15px;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            color: rgb(22, 22, 22);
+            line-height: 1.5;
+        }
+
+        .section5 p {
+            padding-top: 15px;
+            padding-left: 10px;
+            font-size: 2ch;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            color: rgb(145, 132, 132);
+            line-height: 1.5;
+        }
+
+        .sec5part1 {
+            float: left;
+            background-color: rgb(33, 108, 108);
+            width: 100%;
+            height: 25vh;
+        }
+
+
+        .sec5part2 {
+            float: left;
+            background-color: rgb(132, 235, 235);
+            width: 50%;
+            height: 30vh;
+        }
+
+        .sec5part3 {
+            float: left;
+            background-color: rgb(30, 87, 87);
+            width: 50%;
+            height: 30vh;
+            float: left;
+        }
+
+        .sec5part4 {
+            float: left;
+            background-color: rgb(17, 63, 63);
+            width: 50%;
+            height: 30vh;
+        }
+
+        .sec5part5 {
+            float: left;
+            background-color: rgb(104, 142, 142);
+            width: 50%;
+            height: 30vh;
+        }
+
+        .sec5part6 {
+            float: left;
+            background-color: rgb(88, 169, 169);
+            width: 50%;
+            height: 30vh;
+        }
+
+        .sec5part7 {
+            float: left;
+            background-color: rgb(97, 175, 175);
+            width: 50%;
+            height: 30vh;
+        }
+
+        .header5 {
+            width: 100%;
+            height: 100vh;
+            background-color: rgb(109, 38, 38);
+            padding-top: 100px;
+        }
+
+        .main1 {
+            background-repeat: no-repeat;
+            width: 100%;
+            height: 450px;
+            background-image: url('pic0.jpg');
+            background-size: 100% 500px;
+            background-color: rgba(173, 182, 182, 0.473);
+        }
+
+        .header5 h1 {
+            padding-left: 50px;
+            padding-top: 100px;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            color: rgb(253, 253, 253);
+            line-height: 1.5;
+        }
+
+        .header5 p {
+            padding-top: 15px;
+            padding-left: 50px;
+            font-size: 2ch;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            color: rgb(252, 251, 251);
+            line-height: 2;
+        }
+
+        /* .section7 {
+            width: 90%;
+            height: 90vh;
+            background-color: rgb(113, 89, 58);
+            margin-right: auto;
+            margin-left: auto;
+        } */
+
+
+        .header6 {
+            width: 100%;
+            height: 50vh;
+            background-color: rgb(216, 212, 212);
+            padding-top: 100px;
+        }
+
+        .header6 h1 {  
+            color: rgb(205, 79, 205);
+            text-align: center;
+            line-height: 2;
+        }
+
+        .header6 p {
+            color: rgb(113, 110, 110);
+            text-align: center;
+            line-height: 3;
+        }
+
+        /* .section8 {
+            width: 90%;
+            height: 40vh;
+            background-color: burlywood;
+            margin-right: auto;
+            margin-left: auto;
+        } */
+
+        /* .header7 {
+            width: 100%;
+            height: 50vh;
+            background-color: beige;
+            float: left;
+        } */
+
+        /* .header10 {
+            width: 100%;
+            height: 90vh;
+            background-color: rgb(231, 231, 23);
+            float: left;
+        } */
+
+         .item2 { height: inherit; 
+            text-align: center;
+            width: 20%;
+            margin: 30px;
+            border-style: groove;
+            border-width: 1px;
+            float: left;
+
+        }
+
+        .item2 img { 
+            max-width: 100%;
+            height: auto;
+            object-fit: contain;
+            
+        }
+
+        .item2 h3 {
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            color: rgb(15, 15, 15);
+        }
+
+        .item2 p { line-height: 1.5;
+            color: grey;
+            padding-inline-end: 5px;
+            padding: 20px;
+        } 
+
+         .header8 {
+            width: 100%;
+            height: 40vh;
+            background-color: beige;
+            float: left;
+            padding-top: 50px;
+        } 
+        .header8 h1 {  
+            color: rgb(205, 79, 205);
+            text-align: center;
+            line-height: 2;
+        }
+
+        .header8 p {
+            color: rgb(113, 110, 110);
+            text-align: center;
+            line-height: 3;
+        }
+
+        /* .section9 {
+            float: left;
+            width: 100%;
+            background-color: gainsboro;
+            height: 100vh;
+        }
+
+        .sec9part1 {
+            float: left;
+            background-color: rgb(104, 142, 142);
+            width: 50%;
+            height: 50vh;
+        }
+
+        .sec9part2 {
+            float: left;
+            background-color: rgb(48, 130, 130);
+            width: 50%;
+            height: 50vh;
+            float: left;
+        }
+
+        .sec9part3 {
+            float: left;
+            background-color: rgb(20, 75, 75);
+            width: 50%;
+            height: 50vh;
+            float: left;
+        }
+
+        .sec9part4 {
+            float: left;
+            background-color: rgb(60, 109, 109);
+            width: 50%;
+            height: 50vh;
+            float: left;
+        }
+
+        .header9 {
+            width: 100%;
+            height: 60vh;
+            background-color: rgb(138, 243, 243);
+            float: left;
+            padding-top: 40px;
+        }
+
+        .section10 {
+            width: 80%;
+            height: 55vh;
+            background-color: rgb(108, 108, 167);
+            margin-right: auto;
+            margin-left: auto;
+        }
+
+        .header11 {
+            width: 100%;
+            height: 40vh;
+            background-color: rgb(66, 136, 136);
+            float: left;
+            padding-top: 40px;
+        }
+
+        .header12 {
+            background-color: rgb(0, 166, 199);
+            width: 100%;
+            height: 60vh;
+
+        }
+
+        .section12 {
+            float: left;
+            width: 45%;
+            background-color: rgb(132, 68, 68);
+            height: 60vh;
+        }
+
+        .section11 {
+            float: left;
+            width: 100%;
+            background-color: rgb(154, 104, 104);
+            height: 60vh;
+
+        }
+
+        .header100 {
+            width: 100%;
+            height: 70vh;
+            background-color: rgb(188, 188, 165);
+            float: left;
+        }
+
+        .item3 {
+            text-align: center;
+            width: 22%;
+            margin: 10px;
+            border-style: groove;
+            border-width: 1px;
+            float: left;
+
+        }
+
+        .item3 image {
+            width: 100%;
+        }
+
+        .item3 p {
+            padding: 20px;
+        }
+
+        .item3 button {
+            margin: 10px;
+            color: white;
+            padding: 10px;
+            border-style: groove;
+            border-top-left-radius: 50px;
+            border-bottom-left-radius: 50px;
+            border-top-right-radius: 50px;
+            border-bottom-right-radius: 50px;
+        }
+
+        .item3 h4 {
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            color: grey;
+        }
+
+        .item3 p {
+            color: grey;
+            padding-inline-end: 5px;
+        }
+
+        .item4 {
+            text-align: center;
+            width: 22%;
+            margin: 10px;
+            border-style: groove;
+            border-width: 1px;
+            float: left;
+
+        }
+
+        .item4 image {
+            width: 100%;
+        }
+
+        .item4 p {
+            padding: 20px;
+        }
+
+        .item4 button {
+            margin: 10px;
+            color: white;
+            padding: 10px;
+            border-style: groove;
+            border-top-left-radius: 50px;
+            border-bottom-left-radius: 50px;
+            border-top-right-radius: 50px;
+            border-bottom-right-radius: 50px;
+        }
+
+        .item4 h4 {
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            color: grey;
+        }
+
+        .item4 p {
+            color: grey;
+            padding-inline-end: 5px;
+        }
+
+        .header13 {
+            background-color: black;
+            width: 100%;
+            height: 80vh;
+            float: left;
+        }
+
+        @media screen and (max-width:1000px) {
+
+            .aside {
+                width: 25%;
+            }
+
+            .header,
+            .section0,
+            .section00,
+            .section000 {
+                width: 100%;
+                text-align: left;
+            }
+
+            .section6,
+            .section5,
+            .sec5part1,
+            .sec5part2,
+            .sec5part3,
+            .sec5part4,
+            .sec5part5,
+            .sec5part6,
+            .sec5part7 {
+                width: 100%;
+            }
+
+
+        }
+
+        @media screen and (max-width:800px) {
+
+            .aside {
+                width: 50%;
+            }
+
+            .header,
+            .section0,
+            .section00,
+            .section000 {
+                width: 100%;
+                text-align: left;
+            }
+
+            .section6,
+            .section5,
+            .sec5part1,
+            .sec5part2,
+            .sec5part3,
+            .sec5part4,
+            .sec5part5,
+            .sec5part6,
+            .sec5part7 {
+                width: 100%;
+            }
+
+
+        }
+
+        @media screen and (max-width:500px) {
+
+            .aside {
+                width: 100%;
+            }
+
+            .header,
+            .section0,
+            .section00,
+            .section000 {
+                width: 100%;
+                text-align: left;
+            }
+
+
+        } */
+    </style>
+</head>
+
+<body>
+
+    <div class="header">
+        <div class="section0">
+            <img src="address icon.jpeg" alt="" style="width: 5%; height: 3vh;">
+            198 West 21th Street, Suite 721 New York NY 10016
+        </div>
+        <div class="section00"> <img src="email icon.png" alt="" style="width: 5%; height: 3vh;">
+            youremail@email.com
+        </div>
+        <div class="section000"><img src="phone icon.jpeg" alt="" style="width: 5%; height: 3vh;">
+            + 1235 2355 98
+        </div>
+    </div>
+
+    <div class="header2">
+        <div class="section00000">
+            <p style="font-family: 'Times New Roman'; color: black;"> <b style="font-size: 5ch;"> Kiddos</b>
+            </p>
+        </div>
+        <div class="section0000">
+            <a href=""> Home </a>
+            <a href=""> About </a>
+            <a href=""> Teacher </a>
+            <a href=""> Courses </a>
+            <a href=""> Pricing </a>
+            <a href=""> Blog </a>
+            <a href=""> Contact </a>
+        </div>
+
+
+    </div>
+    <div class="main">
+        <!-- <a href="" class="read-more-btn"> Read More </a> -->
+    </div>
+    <div class="sectionn">
+        <div class="aside">
+            <div class="article">
+                <img src="open-book.png" style="width: 100%;height: 100px;border-radius: 100px;" alt="">
+            </div>
+            <h2> Certified Teachers </h2>
+            <p>Even the all-powerful Pointing <br>has no control about the blind <br> texts it is an almost
+                <br>unorthographic.
+            </p>
+        </div>
+        <div class="aside" style="background-color: rgb(24, 223, 101);">
+            <div class="article">
+                <img src="e-learning.png" style="width: 100%;height: 100px;border-radius: 100px;" alt="">
+            </div>
+            <h2> Certified Teachers </h2>
+            <p>Even the all-powerful Pointing <br>has no control about the blind <br> texts it is an almost
+                <br>unorthographic.
+            </p>
+        </div>
+        <div class="aside" style="background-color: rgb(114, 24, 223);">
+            <div class="article">
+                <img src="education.png" style="width: 100%;height: 100px;border-radius: 100px;" alt="">
+            </div>
+            <h2> Certified Teachers </h2>
+            <p>Even the all-powerful Pointing <br>has no control about the blind <br> texts it is an almost
+                <br>unorthographic.
+            </p>
+        </div>
+        <div class="aside" style="background-color: rgb(167, 25, 25);">
+            <div class="article">
+                <img src="education (1).png" style="width: 100%;height: 100px;border-radius: 100px;" alt="">
+            </div>
+            <h2> Certified Teachers </h2>
+            <p>Even the all-powerful Pointing <br>has no control about the blind <br> texts it is an almost
+                <br>unorthographic.
+            </p>
+        </div>
+    </div>
+
+
+    <div class="header4">
+        <div class="section5">
+            <div class="sec5part1">
+                <h3> What we Offer </h3>
+                <p>On her way she met a copy. The copy warned the Little Blind Text, that where it came from it
+                    would have been rewritten a thousand times and everything that was left from its origin would be
+                    the word.</p>
+
+            </div>
+            <div class="sec5part2">
+                <h3> <img src="square.png" alt=""> Safety First </h3>
+                <p>Far far away, behind the word mountains, far from the countries Vokalia.</p>
+            </div>
+            <div class="sec5part3">
+                <h3> <img src="square.png" alt=""> Regular Classes </h3>
+                <p>Far far away, behind the word mountains, far from the countries Vokalia.</p>
+            </div>
+            <div class="sec5part4">
+                <h3> <img src="square.png" alt=""> Certified Teachers </h3>
+                <p>Far far away, behind the word mountains, far from the countries Vokalia.</p>
+            </div>
+            <div class="sec5part5">
+                <h3> <img src="square.png" alt=""> Sufficient Classrooms </h3>
+                <p>Far far away, behind the word mountains, far from the countries Vokalia.</p>
+            </div>
+            <div class="sec5part6">
+                <h3> <img src="square.png" alt=""> Creative Lessons </h3>
+                <p>Far far away, behind the word mountains, far from the countries Vokalia.</p>
+            </div>
+            <div class="sec5part7">
+                <h3> <img src="square.png" alt=""> Sports Facilities </h3>
+                <p>Far far away, behind the word mountains, far from the countries Vokalia.</p>
+            </div>
+        </div>
+        <div class="section6">
+            <h3> Welcome to Kiddos Learning School </h3>
+            <p> On her way she met a copy. The copy warned the Little Blind Text, that where it came from it would have
+                been rewritten a thousand times and everything that was left from its origin would be the word.
+
+                <br> Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.
+                A small river named Duden flows by their place and supplies it with the necessary regelialia. And if she
+                hasn’t been rewritten, then they are still using her.
+            </p>
+        </div>
+    </div>
+
+    <div class="header5 main1">
+        <h1> Teaching Your Child Some Good Manners</h1>
+        <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a
+            paradisematic <br> country, in which roasted parts of sentences fly into your mouth.</p>
+        <!-- <div class="section7"> </div> -->
+    </div>
+
+    <div class="header6">
+        <h1> Certified Teachers </h1>
+        <p> Separated they live in. A small river named Duden flows by their place and supplies it with <br> the necessary
+            regelialia. It is a paradisematic country</p>
+        <!-- <div class="section8"> </div> -->
+    </div>
+    <!-- <div class="header7"> </div> -->
+    <div class="header10"> 
+        <div class="item2">
+            <img src="Teacher.jpg" alt="">
+            <br>
+            <h3>Bianca Wilson</h3>
+            <p>I am an ambitious workaholic, but apart from that, pretty simple person. </p>
+        </div>
+
+        <div class="item2">    
+            <img src="Teacher.jpg" alt="">
+            <br>
+            <h3> Mitch Parker</h3>
+            <p>I am an ambitious workaholic, but apart from that, pretty simple person. </p>
+        </div>
+
+        <div class="item2">
+            <img src="Teacher.jpg" alt="">
+            <br>
+            <h3>Stella Smith</h3>
+            <p>I am an ambitious workaholic, but apart from that, pretty simple person. </p>
+        </div>
+
+        <div class="item2">
+            <img src="Teacher.jpg" alt="">
+            <br>
+            <h3>Monshe Henderson</h3>
+            <p>I am an ambitious workaholic, but apart from that, pretty simple person.
+            </p>
+        </div>
+    </div>
+    <div class="header8">
+        <h1> Our Courses </h1>
+        <p> Separated they live in. A small river named Duden flows by their place and supplies it with the <br> necessary regelialia. It is a paradisematic country</p>
+    </div> 
+
+    <!-- <div class="section9">
+        <div class="sec9part1"> </div>
+        <div class="sec9part2"> </div>
+        <div class="sec9part3"> </div>
+        <div class="sec9part4"> </div>
+    </div>
+    <div class="header9">
+        <div class="section10"> </div>
+    </div>
+
+    <div class="header11"></div>
+    <div class="header12">
+        <div class="section11">
+            <div class="section12"> </div>
+        </div>
+
+        <div class="header9">
+            <div class="section10"> </div>
+        </div>
+        <div class="header100">
+
+            <div class="item3">
+                <h4>Basic</h4>
+                <h2> <b>$24,50</b>/5mos</h2>
+                <img src="../11 sep/p1.jpeg" alt="">
+                <p>Far far away, behind the word mountains, far from the countries Vokalia and consonantia, there
+                    live the blind
+                    texts. </p>
+                <button style="background-color: skyblue; border-color: skyblue;"> Take a Course </button>
+            </div>
+
+            <div class="item3">
+                <h4>Basic</h4>
+                <h2> <b>$24,50</b>/5mos</h2>
+                <img src="..//11 sep/p2.jpeg" alt="">
+                <p>Far far away, behind the word mountains, far from the countries Vokalia and consonantia, there live
+                    the blind
+                    texts. </p>
+                <button style="background-color: orange; border-color: orange;"> Take a Course </button>
+            </div>
+
+            <div class="item3">
+                <h4>Basic</h4>
+                <h2> <b>$24,50</b>/5mos</h2>
+                <img src="..//11 sep/p3.jpeg" alt="">
+                <p>Far far away, behind the word mountains, far from the countries Vokalia and consonantia, there live
+                    the blind
+                    texts. </p>
+                <button style="background-color: seagreen; border-color: seagreen;"> Take a Course </button>
+            </div>
+
+            <div class="item3">
+                <h4>Basic</h4>
+                <h2> <b>$24,50</b>/5mos</h2>
+                <img src="../11 sep/p4.jpeg" alt="">
+                <p>Far far away, behind the word mountains, far from the countries Vokalia and consonantia, there live
+                    the blind
+                    texts. </p>
+                <button style="background-color: red; border-color: red;"> Take a Course </button>
+            </div>
+        </div>
+
+        <div class="header11"></div>
+
+        <div class="header10">
+
+            <div class="item4">
+                <h4>Basic</h4>
+                <h2> <b>$24,50</b>/5mos</h2>
+                <img src="../11 sep/p1.jpeg" alt="">
+                <p>Far far away, behind the word mountains, far from the countries Vokalia and consonantia, there
+                    live the blind
+                    texts. </p>
+                <button style="background-color: skyblue; border-color: skyblue;"> Take a Course </button>
+            </div>
+        </div>
+        <div class="header11"></div>
+        <img src="../11 sep/p1.jpeg" alt="" style="width: 25%; height: 50vh;float: left;">
+        <img src="../11 sep/p1.jpeg" alt="" style="width: 25%; height: 50vh;float: left;">
+        <img src="../11 sep/p1.jpeg" alt="" style="width: 25%; height: 50vh; float: left;">
+        <img src="../11 sep/p1.jpeg" alt="" style="width: 25%; height: 50vh; float: left;">
+        <div class="header13"></div> -->
+
+</body>
+
+</html>

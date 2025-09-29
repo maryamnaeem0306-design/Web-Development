@@ -1,0 +1,607 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            padding: 0px;
+            margin: 0px;
+        }
+
+        .header { position: sticky;
+            text-align: center;
+            background-color: rgb(0, 166, 199);
+            width: 100%;
+            height: 40px;
+
+        }
+
+        .section0 {
+            padding-top: 5px;
+            float: left;
+            width: 36%;
+            background-color: rgb(8, 151, 227);
+            height: 40px;
+        }
+
+        .section00 {
+            padding-top: 5px;
+            float: left;
+            width: 33%;
+            background-color: rgb(8, 151, 227);
+            height: 40px;
+        }
+
+        .section000 {
+            padding-top: 5px;
+            float: left;
+            width: 31%;
+            background-color: rgb(8, 151, 227);
+            height: 40px;
+        }
+
+        .header2 {
+position: sticky;
+            background-color: white;
+            width: 100%;
+            height: 60px;
+            
+        }
+
+        
+
+        .sticky a {
+            padding: 5px;
+            margin: 20px;
+            color: rgb(14, 1, 1);
+            text-decoration: none;
+            display: inline-block;
+        }
+
+        .section00000 { 
+            float: left;
+            width: 45%;
+            background-color: rgb(255, 253, 253);
+            height: 60px;
+        }
+
+        .section0000 {
+
+            float: left;
+            width: 55%;
+            background-color: rgb(249, 251, 252);
+            height: 60px;
+        }
+
+        .item {
+            width: 24.5%;
+            float: left;
+            padding-left: 5px;
+            text-align: center;
+        }
+
+        .header3 {
+            margin: 0px;
+            padding: 0%;
+            background-color: white;
+            width: 100%;
+            height: 200%;
+        }
+
+        .section1 {
+            margin: 0%;
+            float: left;
+            width: 25%;
+            background-color: rgb(59, 182, 235);
+            height: 200px;
+        }
+
+        .section2 {
+            float: left;
+            width: 25%;
+            background-color: rgb(46, 193, 46);
+            height: 200px;
+        }
+
+        .section3 {
+            float: left;
+            width: 25%;
+            background-color: rgb(68, 0, 128);
+            height: 200px;
+        }
+
+        .section4 {
+            float: left;
+            width: 25%;
+            background-color: rgb(207, 22, 22);
+            height: 200px;
+        }
+
+        .header4 {
+            background-color: rgb(0, 166, 199);
+            width: 100%;
+            height: 148.5vh;
+        }
+
+        .section6 {
+            float: left;
+            width: 40%;
+            background-color: rgb(118, 105, 105);
+            height: 115vh;
+        }
+
+        .section5 {
+            float: left;
+            width: 60%;
+            background-color: gainsboro;
+            height: 74.25vh;
+        }
+
+        .sec5part1 {
+            float: left;
+            background-color: rgb(189, 212, 212);
+            width: 100%;
+            height: 25vh;
+        }
+
+        .sec5part2 {
+            float: left;
+            background-color: rgb(104, 142, 142);
+            width: 50%;
+            height: 30vh;
+        }
+
+        .sec5part3 {
+            float: left;
+            background-color: rgb(60, 109, 109);
+            width: 50%;
+            height: 30vh;
+            float: left;
+        }
+
+        .sec5part4 {
+            float: left;
+            background-color: rgb(17, 63, 63);
+            width: 50%;
+            height: 30vh;
+        }
+
+        .sec5part5 {
+            float: left;
+            background-color: rgb(104, 142, 142);
+            width: 50%;
+            height: 30vh;
+        }
+
+        .sec5part6 {
+            float: left;
+            background-color: rgb(88, 169, 169);
+            width: 50%;
+            height: 30vh;
+        }
+
+        .sec5part7 {
+            float: left;
+            background-color: rgb(97, 175, 175);
+            width: 50%;
+            height: 30vh;
+        }
+
+        .header5 {
+            width: 100%;
+            height: 100vh;
+            background-color: rgb(109, 38, 38);
+            padding-top: 100px;
+        }
+
+        .section7 {
+            width: 90%;
+            height: 90vh;
+            background-color: rgb(113, 89, 58);
+            margin-right: auto;
+            margin-left: auto;
+        }
+
+        .header6 {
+            width: 100%;
+            height: 50vh;
+            background-color: rgb(64, 54, 54);
+            padding-top: 100px;
+        }
+
+        .section8 {
+            width: 90%;
+            height: 40vh;
+            background-color: burlywood;
+            margin-right: auto;
+            margin-left: auto;
+        }
+
+        .header7 {
+            width: 100%;
+            height: 50vh;
+            background-color: beige;
+            float: left;
+        }
+
+        .header10 {
+            width: 100%;
+            height: 60vh;
+            background-color: rgb(118, 118, 43);
+            float: left;
+        }
+
+        .item {
+            text-align: center;
+            width: 22%;
+            margin: 10px;
+            border-style: groove;
+            border-width: 1px;
+            float: left;
+
+        }
+
+        .item image {
+            width: 100%;
+        }
+
+        .item h4 {
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            color: grey;
+        }
+
+        .item p {
+            color: grey;
+            padding-inline-end: 5px;
+            padding: 20px;
+        }
+
+        .header8 {
+            width: 100%;
+            height: 40vh;
+            background-color: beige;
+            float: left;
+        }
+
+        .section9 {
+            float: left;
+            width: 100%;
+            background-color: gainsboro;
+            height: 100vh;
+        }
+
+        .sec9part1 {
+            float: left;
+            background-color: rgb(104, 142, 142);
+            width: 50%;
+            height: 50vh;
+        }
+
+        .sec9part2 {
+            float: left;
+            background-color: rgb(48, 130, 130);
+            width: 50%;
+            height: 50vh;
+            float: left;
+        }
+
+        .sec9part3 {
+            float: left;
+            background-color: rgb(20, 75, 75);
+            width: 50%;
+            height: 50vh;
+            float: left;
+        }
+
+        .sec9part4 {
+            float: left;
+            background-color: rgb(60, 109, 109);
+            width: 50%;
+            height: 50vh;
+            float: left;
+        }
+
+        .header9 {
+            width: 100%;
+            height: 60vh;
+            background-color: rgb(138, 243, 243);
+            float: left;
+            padding-top: 40px;
+        }
+
+        .section10 {
+            width: 80%;
+            height: 55vh;
+            background-color: rgb(108, 108, 167);
+            margin-right: auto;
+            margin-left: auto;
+        }
+
+        .header11 {
+            width: 100%;
+            height: 40vh;
+            background-color: rgb(66, 136, 136);
+            float: left;
+            padding-top: 40px;
+        }
+
+        .header12 {
+            background-color: rgb(0, 166, 199);
+            width: 100%;
+            height: 60vh;
+
+        }
+
+        .section12 {
+            float: left;
+            width: 45%;
+            background-color: rgb(132, 68, 68);
+            height: 60vh;
+        }
+
+        .section11 {
+            float: left;
+            width: 100%;
+            background-color: rgb(154, 104, 104);
+            height: 60vh;
+
+        }
+
+        .header10 {
+            width: 100%;
+            height: 70vh;
+            background-color: rgb(188, 188, 165);
+            float: left;
+        }
+
+        .item {
+            text-align: center;
+            width: 22%;
+            margin: 10px;
+            border-style: groove;
+            border-width: 1px;
+            float: left;
+
+        }
+
+        .item image {
+            width: 100%;
+        }
+
+        .item p {
+            padding: 20px;
+        }
+
+        .item button {
+            margin: 10px;
+            color: white;
+            padding: 10px;
+            border-style: groove;
+            border-top-left-radius: 50px;
+            border-bottom-left-radius: 50px;
+            border-top-right-radius: 50px;
+            border-bottom-right-radius: 50px;
+        }
+
+        .item h4 {
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            color: grey;
+        }
+
+        .item p {
+            color: grey;
+            padding-inline-end: 5px;
+        }
+
+        .header13 {
+            background-color: black;
+            width: 100%;
+            height: 80vh;
+            float: left;
+        }
+
+        .header14 {
+            background-color: rgba(248, 244, 244, 0.495);
+            width: 100%;
+            height: 100vh;
+            float: left;
+            background-color: aquamarine;
+            background-image: url('edited pic0.png');
+            background-size: 100%;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="header">
+        <div class="section0">
+            <img src="address icon.jpeg" alt="" style="width: 5%; height: 3vh;">
+            198 West 21th Street, Suite 721 New York NY 10016
+        </div>
+        <div class="section00"> <img src="email icon.png" alt="" style="width: 5%; height: 3vh;"> youremail@email.com
+        </div>
+        <div class="section000"><img src="phone icon.jpeg" alt="" style="width: 5%; height: 3vh;"> + 1235 2355 98
+        </div>
+    </div>
+
+    <div class="header2">
+        <div class="sticky">
+            <div class="section00000">
+                <p style="font-family: 'Times New Roman';"> <b style="font-size: 5ch;"> Kiddos</b>
+                </p>
+            </div>
+            <div class="section0000">
+                <a href=""> Home </a>
+                <a href=""> About </a>
+                <a href=""> Teacher </a>
+                <a href=""> Courses </a>
+                <a href=""> Pricing </a>
+                <a href=""> Blog </a>
+                <a href=""> Contact </a>
+            </div>
+
+        </div>
+    </div>
+    <div class="header14"> </div>
+
+
+    <div class="header3">
+        <div class="section1"></div>
+        <div class="section2"></div>
+        <div class="section3"></div>
+        <div class="section4"></div>
+    </div>
+    <div class="header4">
+        <div class="section5">
+            <div class="sec5part1"> </div>
+            <div class="sec5part2"> </div>
+            <div class="sec5part3"> </div>
+            <div class="sec5part4"> </div>
+            <div class="sec5part5"> </div>
+            <div class="sec5part6"> </div>
+            <div class="sec5part7"> </div>
+        </div>
+        <div class="section6"> </div>
+    </div>
+
+    <div class="header5">
+        <div class="section7"> </div>
+    </div>
+
+    <div class="header6">
+        <div class="section8"> </div>
+    </div>
+    <div class="header7"> </div>
+    <div class="header10">
+        <div class="item">
+            <h4>Basic</h4>
+            <h2> <b>$24,50</b>/5mos</h2>
+            <img src="..//11 sep/p1.jpeg" alt="">
+            <p>Far far away, behind the word mountains, far from the countries Vokalia and consonantia, there
+                live the blind
+                texts. </p>
+        </div>
+
+        <div class="item">
+            <h4>Basic</h4>
+            <h2> <b>$24,50</b>/5mos</h2>
+            <img src="..//11 sep/p2.jpeg" alt="">
+            <p>Far far away, behind the word mountains, far from the countries Vokalia and consonantia, there
+                live the blind
+                texts. </p>
+        </div>
+
+        <div class="item">
+            <h4>Basic</h4>
+            <h2> <b>$24,50</b>/5mos</h2>
+            <img src="..//11 sep/p3.jpeg" alt="">
+            <p>Far far away, behind the word mountains, far from the countries Vokalia and consonantia, there
+                live the blind
+                texts. </p>
+        </div>
+
+        <div class="item">
+            <h4>Basic</h4>
+            <h2> <b>$24,50</b>/5mos</h2>
+            <img src="..//11 sep/p4.jpeg" alt="">
+            <p>Far far away, behind the word mountains, far from the countries Vokalia and consonantia, there
+                live the blind
+                texts.
+            </p>
+        </div>
+    </div>
+    <div class="header8">
+    </div>
+
+    <div class="section9">
+        <div class="sec9part1"> </div>
+        <div class="sec9part2"> </div>
+        <div class="sec9part3"> </div>
+        <div class="sec9part4"> </div>
+    </div>
+    <div class="header9">
+        <div class="section10"> </div>
+    </div>
+
+    <div class="header11"></div>
+    <div class="header12">
+        <div class="section11">
+            <div class="section12"> </div>
+        </div>
+
+        <div class="header9">
+            <div class="section10"> </div>
+        </div>
+        <div class="header10">
+
+            <div class="item">
+                <h4>Basic</h4>
+                <h2> <b>$24,50</b>/5mos</h2>
+                <img src="../11 sep/p1.jpeg" alt="">
+                <p>Far far away, behind the word mountains, far from the countries Vokalia and consonantia, there
+                    live the blind
+                    texts. </p>
+                <button style="background-color: skyblue; border-color: skyblue;"> Take a Course </button>
+            </div>
+
+            <div class="item">
+                <h4>Basic</h4>
+                <h2> <b>$24,50</b>/5mos</h2>
+                <img src="..//11 sep/p2.jpeg" alt="">
+                <p>Far far away, behind the word mountains, far from the countries Vokalia and consonantia, there live
+                    the blind
+                    texts. </p>
+                <button style="background-color: orange; border-color: orange;"> Take a Course </button>
+            </div>
+
+            <div class="item">
+                <h4>Basic</h4>
+                <h2> <b>$24,50</b>/5mos</h2>
+                <img src="..//11 sep/p3.jpeg" alt="">
+                <p>Far far away, behind the word mountains, far from the countries Vokalia and consonantia, there live
+                    the blind
+                    texts. </p>
+                <button style="background-color: seagreen; border-color: seagreen;"> Take a Course </button>
+            </div>
+
+            <div class="item">
+                <h4>Basic</h4>
+                <h2> <b>$24,50</b>/5mos</h2>
+                <img src="../11 sep/p4.jpeg" alt="">
+                <p>Far far away, behind the word mountains, far from the countries Vokalia and consonantia, there live
+                    the blind
+                    texts. </p>
+                <button style="background-color: red; border-color: red;"> Take a Course </button>
+            </div>
+        </div>
+
+        <div class="header11"></div>
+
+        <div class="header10">
+
+            <div class="item">
+                <h4>Basic</h4>
+                <h2> <b>$24,50</b>/5mos</h2>
+                <img src="../11 sep/p1.jpeg" alt="">
+                <p>Far far away, behind the word mountains, far from the countries Vokalia and consonantia, there
+                    live the blind
+                    texts. </p>
+                <button style="background-color: skyblue; border-color: skyblue;"> Take a Course </button>
+            </div>
+        </div>
+        <div class="header11"></div>
+        <img src="../11 sep/p1.jpeg" alt="" style="width: 25%; height: 50vh;float: left;">
+        <img src="../11 sep/p1.jpeg" alt="" style="width: 25%; height: 50vh;float: left;">
+        <img src="../11 sep/p1.jpeg" alt="" style="width: 25%; height: 50vh; float: left;">
+        <img src="../11 sep/p1.jpeg" alt="" style="width: 25%; height: 50vh; float: left;">
+        <div class="header13"></div>
+
+</body>
+
+</html>

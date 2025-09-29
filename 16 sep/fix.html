@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        .rel { 
+            bottom: 10px;
+            position: relative;
+            width: 100px;
+            height: 100px;
+            background-color: turquoise;
+            position: fixed ; 
+            right: 10px;
+            bottom: 10;
+        }
+        .abs { border-radius: 100px;
+            width: 25px;
+            height: 25px;
+            background-color: red;
+            position: absolute;
+            right: 15px;
+            top: 15px;
+            
+        }
+        .rel1 { border-radius: 100px;
+            bottom: 10px;
+            position: relative;
+            width: 100px;
+            height: 100px;
+            
+            position: fixed ; 
+            right: 10px;
+            bottom: 100px;
+        }
+        .abs1 { border-radius: 100px;
+            width: 25px;
+            height: 25px;
+            background-color: red;
+            position: absolute;
+            right: 15px;
+            top: 15px;
+            border-radius: 100px;
+        }
+
+        .rel2 { border-radius: 100px;
+            bottom: 10px;
+            position: relative;
+            width: 100px;
+            height: 100px;
+            position: fixed ; 
+            right: 10px;
+            bottom: 200px;
+        }
+        .abs2 { border-radius: 100px;
+            width: 25px;
+            height: 25px;
+            background-color: red;
+            position: absolute;
+            right: 15px;
+            top: 15px;
+            border-radius: 100px;
+        }
+
+        .rel3 {    border-radius: 100px;
+            bottom: 10px;
+            position: relative;
+            width: 100px;
+            height: 100px;   
+            position: fixed ; 
+            right: 10px;
+            bottom: 280px;
+        }
+        .abs3 { border-radius: 100px;
+            width: 25px;
+            height: 25px;
+            background-color: red;
+            position: absolute;
+            right: 15px;
+            top: 15px;
+            border-radius: 100px;
+        }
+    </style>
+</head>
+
+<body>
+    
+    <div class="rel"> <img src="wa.jpg" alt="" style="width: inherit;">
+        <div class="abs">
+            <p style="text-align: center; padding-top: 5px; color: white;"> 8 </p>
+        </div>
+    </div>
+
+    <div class="rel1"> <img src="insta.jpeg" alt="" style="width: inherit; border-radius: 100px;">
+        <div class="abs1">
+            <p style="text-align: center; padding-top: 5px; color: white;"> 7 </p>
+        </div>
+    </div>
+
+    <div class="rel2"> <img src="fb.png" alt="" style="width: inherit; border-radius: 100px;">
+        <div class="abs2">
+            <p style="text-align: center; padding-top: 5px; color: white;"> 7 </p>
+        </div>
+    </div>
+
+    <div class="rel3"> <img src="twit.png" alt="" style="width: inherit; border-radius: 100px;">
+        <div class="abs3"> <p style="text-align: center; padding-top: 5px; color: white;"> 7 </p> </div>
+    </div>
+
+</body>
+
+</html>
